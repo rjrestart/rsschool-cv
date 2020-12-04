@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  margin: auto;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+h5 {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+.block {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  background: rgba(9, 3, 66, 0.712);
+  border-style: groove;
+  border-color: rgba(166, 80, 216, 0.726);
+  margin-top: 10px;
+  border-radius: 10px 10px 0 0;
+}
+hr {
+  color: red;
+}
+.my-photo-ratation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  box-shadow: 10px 10px 10px 10px;
+}
+img {
+  border-style: outset;
+  border-color: rgba(9, 3, 66, 0.712);
+}
+.personal-info-1 {
+  background: rgba(130, 145, 126, 0.788);
+  width: 33%;
+  border-style: groove;
+  border-color: rgba(34, 73, 11, 0.726);
+}
+
+.personal-info-2 {
+  background: rgba(130, 145, 126, 0.788);
+  width: 33%;
+  float: right;
+  position: relative;
+  border-style: groove;
+  border-color: rgba(34, 73, 11, 0.726);
+}
+.footer {
+  background: rgba(9, 3, 66, 0.712);
+  border-style: groove;
+  border-color: rgba(166, 80, 216, 0.726);
+  border-radius: 0px 0px 10px 10px;
+}
